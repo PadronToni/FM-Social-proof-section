@@ -1,0 +1,18 @@
+:root {
+	/* Main colors */
+	--clr-accent-500: hsl(333, 80%, 67%);
+	--clr-main-700: hsl(300, 43%, 22%);
+
+	/* Neutrals */
+	--clr-neutral-100: hsl(0, 0%, 100%);
+	--clr-neutral-300: hsl(300, 24%, 96%);
+	--clr-neutral-600: hsl(303, 10%, 53%);
+
+	/* UI colors */
+	--clr-background: var(--clr-white-100);
+	--clr-foreground: var(--clr-main-700);
+
+	/* Font */
+	--font-main: "League Spartan", sans-serif;
+	font-size: 93.75%;
+}
