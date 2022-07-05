@@ -1,0 +1,57 @@
+.grid {
+	display: grid;
+	gap: var(--grid-gap, 0.5rem);
+}
+
+.grid.gap-1 {
+	--grid-gap: 0.25rem;
+}
+.grid.gap-2 {
+	--grid-gap: 0.5rem;
+}
+.grid.gap-3 {
+	--grid-gap: 1rem;
+}
+.grid.gap-4 {
+	--grid-gap: 1.5rem;
+}
+
+/* ################ */
+/* LAYOUT TEMPLATES */
+/* ################ */
+
+/* Even columns */
+.grid.even-columns {
+	grid-template-columns: repeat(var(--grid-columns, 2), 1fr);
+}
+.even-columns[data-columns="3"] {
+	--grid-columns: 3;
+}
+.even-columns[data-columns="4"] {
+	--grid-columns: 3;
+}
+.even-columns[data-columns="8"] {
+	--grid-columns: 3;
+}
+.even-columns[data-columns="12"] {
+	--grid-columns: 3;
+}
+
+
+/* ##### */
+/* ITEMS */
+/* ##### */
+
+.grid > .grid-row-span {
+	grid-column: span var(--grid-columns, 2);
+}
+.grid > .grid-col-span {
+	grid-row: span var(--grid-rows, 2);
+}
+
+@media screen and (max-width: 420px) {
+	.grid.even-columns {
+		--grid-columns: 1 ;
+		grid-template-columns: 1fr;
+	}
+}
