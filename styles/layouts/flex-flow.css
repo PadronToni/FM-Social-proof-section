@@ -1,0 +1,53 @@
+.flex-col-container > * {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.flex-col-container.gap-1 > * {
+	--flex-gap: 0.25rem;
+}
+.flex-col-container.gap-2 > * {
+	--flex-gap: 0.5rem;
+}
+.flex-col-container.gap-3 > * {
+	--flex-gap: 1rem;
+}
+
+/* Row */
+.flex-row {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	gap: var(--flex-gap, 0.25rem);
+}
+.flex-row.centered {
+	justify-content: center;
+}
+
+.flex-row-container > * {
+	display: flex;
+	align-items: center;
+}
+
+/* Column */
+.flex-col {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.flex-col.centered {
+	justify-content: center;
+}
+
+/* Gaps */
+[class*="flex-"].gap-1 {
+	--flex-gap: 0.25rem;
+}
+[class*="flex-"].gap-2 {
+	--flex-gap: 0.5rem;
+}
+[class*="flex-"].gap-3 {
+	--flex-gap: 1rem;
+}
+[class*="flex-"].gap-4 {
+	--flex-gap: 1.5rem;
+}
