@@ -1,0 +1,16 @@
+.stack > * + * {
+	margin-top: var(--stack-gap, 1em);
+}
+
+.stack.stack-gap-1 {
+	--stack-gap: 0.25rem;
+}
+.stack.stack-gap-2 {
+	--stack-gap: 0.5rem;
+}
+.stack.stack-gap-3 {
+	--stack-gap: 1rem;
+}
+.stack.stack-gap-4 {
+	--stack-gap: 1.5rem;
+}
