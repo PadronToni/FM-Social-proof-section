@@ -2,3 +2,7 @@
 .bold {
 	font-weight: bold;
 }
+
+.secondary-text {
+	color: var(--clr-foreground-secondary);
+}

@@ -6,8 +6,12 @@
 
 body {
 	min-height: 100vh;
-	line-height: 1.2;
 	font-family: var(--font-main);
 	color: var(--clr-foreground);
 	background-color: var(--clr-background);
+}
+
+p,
+span {
+	line-height: 1.2;
 }

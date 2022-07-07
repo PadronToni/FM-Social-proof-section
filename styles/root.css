@@ -12,6 +12,7 @@
 	--clr-background: var(--clr-neutral-100);
 	--clr-background-alt: var(--clr-main-700);
 	--clr-foreground: var(--clr-main-700);
+	--clr-foreground-secondary: var(--clr-neutral-600);
 	--clr-foreground-alt: var(--clr-neutral-100);
 
 	/* Font */
