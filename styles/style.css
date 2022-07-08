@@ -19,6 +19,7 @@
 /* Components */
 @import "components/social-section.css";
 @import "components/review.css";
+@import "components/card-voting.css";
 
 /* Utilities */
 @import "utilities/metrics-utilities.css";

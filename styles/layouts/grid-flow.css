@@ -15,6 +15,9 @@
 .grid.gap-4 {
 	--grid-gap: 1.5rem;
 }
+.grid.gap-5 {
+	--grid-gap: 3rem;
+}
 
 /* ################ */
 /* LAYOUT TEMPLATES */

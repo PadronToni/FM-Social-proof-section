@@ -1,0 +1,36 @@
+.voting-container {
+	justify-self: center;
+}
+.card-voting {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	gap: 0.5rem;
+	justify-content: center;
+
+	padding: 1rem 2rem;
+	background-color: var(--clr-neutral-300);
+	border-radius: 0.5rem;
+}
+.card-voting .star {
+	--star-size: 18px;
+	width: var(--star-size);
+	height: var(--star-size);
+	background-repeat: no-repeat;
+	background-image: url(../../images/icon-star.svg);
+	background-position: cover;
+}
+
+.card-voting p {
+	font-weight: 700;
+}
+
+@media screen and (min-width: 40rem) {
+	.voting-container {
+		justify-self: end;
+	}
+	.card-voting {
+		gap: 2rem;
+		justify-content: initial;
+	}
+}
