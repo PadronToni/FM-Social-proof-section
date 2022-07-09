@@ -7,10 +7,19 @@
 .social-section .title {
 	font-size: 2.5rem;
 }
+.social-section > .header {
+	text-align: center;
+}
 
 @media screen and (min-width: 50rem) {
 	.social-section {
 		--grid-columns: 2;
 		grid-template-columns: minmax(12rem, 30%) minmax(12rem, 1fr);
+	}
+}
+
+@media screen and (min-width: 40rem) {
+	.social-section > .header {
+		text-align: initial;
 	}
 }
