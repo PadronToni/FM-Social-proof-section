@@ -1,10 +1,11 @@
 .voting-container {
-	justify-self: center;
+	/* justify-self: center; */
+	align-self: center;
 }
 .card-voting {
 	display: flex;
 	align-items: center;
-	flex-flow: row wrap;
+	flex-flow: column nowrap;
 	gap: 0.5rem;
 	justify-content: center;
 
@@ -26,11 +27,17 @@
 }
 
 @media screen and (min-width: 40rem) {
+	.card-voting {
+		gap: 2rem;
+		flex-flow: row nowrap;
+		justify-content: initial;
+		/* margin-right: calc(var(--offset) * 2rem); */
+		transform: translateX(calc(var(--offset) * 2rem));
+	}
 	.voting-container {
 		justify-self: end;
 	}
-	.card-voting {
-		gap: 2rem;
-		justify-content: initial;
-	}
+}
+
+@media screen and (min-width: 25rem) {
 }
