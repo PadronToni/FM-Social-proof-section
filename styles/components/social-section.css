@@ -8,7 +8,7 @@
 	font-size: 2.5rem;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 50rem) {
 	.social-section {
 		--grid-columns: 2;
 		grid-template-columns: minmax(12rem, 30%) minmax(12rem, 1fr);
