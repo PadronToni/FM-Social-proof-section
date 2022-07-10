@@ -2,6 +2,7 @@
 	/* grid-template-columns: minmax(12rem, 30%) minmax(12rem, 1fr); */
 	--grid-columns: 1;
 	grid-template-columns: 1fr;
+	max-width: 70rem;
 }
 
 .social-section .title {
