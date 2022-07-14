@@ -2,7 +2,7 @@
 	/* grid-template-columns: minmax(12rem, 30%) minmax(12rem, 1fr); */
 	--grid-columns: 1;
 	grid-template-columns: 1fr;
-	max-width: 70rem;
+	max-width: 68rem;
 }
 
 .social-section .title {
@@ -15,7 +15,7 @@
 @media screen and (min-width: 50rem) {
 	.social-section {
 		--grid-columns: 2;
-		grid-template-columns: minmax(12rem, 30%) minmax(12rem, 1fr);
+		grid-template-columns: minmax(12rem, 38%) minmax(12rem, 1fr);
 	}
 }
 
