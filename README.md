@@ -38,7 +38,7 @@ Here is the component at various sizes.
 ### Links
 
 - Solution URL: [Frontend Menthor solution](https://your-solution-url.com)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://padrontoni.github.io/FM-Social-proof-section/)
 
 ## My process
 
