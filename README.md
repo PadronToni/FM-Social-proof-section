@@ -37,7 +37,7 @@ Here is the component at various sizes.
 
 ### Links
 
-- Solution URL: [Frontend Menthor solution](https://your-solution-url.com)
+- Solution URL: [Frontend Menthor solution](https://www.frontendmentor.io/solutions/social-proof-section-solution-using-cube-and-custom-properties-QXUQ7Mi5dF)
 - Live Site URL: [live site](https://padrontoni.github.io/FM-Social-proof-section/)
 
 ## My process
